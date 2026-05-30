@@ -16,6 +16,12 @@ A modular Python system for automatically optimizing LLM prompts to extract stru
 ✅ **Reporting** - Generate Markdown and JSON reports with insights  
 ✅ **Unit Tests** - 21 comprehensive tests covering all modules
 
+# demo Video
+
+Watch the project overview video here:
+https://drive.google.com/file/d/1MrYT41N84fi7NH-XSR_WWjHXtRFSiPD7/view?usp=sharing
+
+
 ## Project Structure
 
 ```
