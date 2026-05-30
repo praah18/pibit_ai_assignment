@@ -445,7 +445,22 @@ Test F1 Score: 0.2857
 Total API Calls: 0 (simulated)
 Total Time: ~2 seconds
 ```
+## Results
 
+Best Validation F1 Score: 0.8571
+
+Test F1 Score: 0.7143
+
+Model Used:
+- Gemini 2.5 Flash
+
+Features:
+- OCR fallback
+- Prompt optimization
+- Checkpointing
+- Automated evaluation
+- Report generation
+- 
 ## Requirements
 
 - Python 3.8+
