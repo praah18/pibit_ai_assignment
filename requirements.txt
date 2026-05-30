@@ -1,0 +1,9 @@
+# PIBIT AI Assignment - Dependencies
+
+# Required libraries for real PDF extraction and LLM integration
+openai>=1.0.0
+PyMuPDF>=1.22.0
+pdfplumber>=0.10.0
+pytesseract>=0.3.11
+pdf2image>=1.16.0
+requests>=2.30.0

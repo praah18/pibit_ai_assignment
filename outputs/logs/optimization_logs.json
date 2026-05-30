@@ -1,0 +1,218 @@
+{
+  "prompts": [
+    {
+      "timestamp": "2026-05-30T14:08:37.732706",
+      "iteration": 0,
+      "variation": 0,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.",
+      "prompt_length": 499
+    },
+    {
+      "timestamp": "2026-05-30T14:08:48.365714",
+      "iteration": 0,
+      "variation": 1,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 905
+    },
+    {
+      "timestamp": "2026-05-30T14:09:01.497767",
+      "iteration": 0,
+      "variation": 2,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nAdditional instructions:\n- Be thorough and extract all available information\n- For lists, include all entries you can find\n- If information is not found, use empty string or empty list\n- Ensure JSON is valid and properly formatted\n- Extract exact text from resume when possible\n",
+      "prompt_length": 779
+    },
+    {
+      "timestamp": "2026-05-30T14:09:12.964341",
+      "iteration": 1,
+      "variation": 0,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 905
+    },
+    {
+      "timestamp": "2026-05-30T14:09:25.613366",
+      "iteration": 1,
+      "variation": 1,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 1311
+    },
+    {
+      "timestamp": "2026-05-30T14:09:38.203856",
+      "iteration": 1,
+      "variation": 2,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n\n\nAdditional instructions:\n- Be thorough and extract all available information\n- For lists, include all entries you can find\n- If information is not found, use empty string or empty list\n- Ensure JSON is valid and properly formatted\n- Extract exact text from resume when possible\n",
+      "prompt_length": 1185
+    },
+    {
+      "timestamp": "2026-05-30T14:09:48.468548",
+      "iteration": 2,
+      "variation": 0,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 905
+    },
+    {
+      "timestamp": "2026-05-30T14:09:59.239978",
+      "iteration": 2,
+      "variation": 1,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 1311
+    },
+    {
+      "timestamp": "2026-05-30T14:10:09.846582",
+      "iteration": 2,
+      "variation": 2,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n\n\nAdditional instructions:\n- Be thorough and extract all available information\n- For lists, include all entries you can find\n- If information is not found, use empty string or empty list\n- Ensure JSON is valid and properly formatted\n- Extract exact text from resume when possible\n",
+      "prompt_length": 1185
+    },
+    {
+      "timestamp": "2026-05-30T14:10:22.445948",
+      "iteration": 3,
+      "variation": 0,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 905
+    },
+    {
+      "timestamp": "2026-05-30T14:10:33.088043",
+      "iteration": 3,
+      "variation": 1,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n",
+      "prompt_length": 1311
+    },
+    {
+      "timestamp": "2026-05-30T14:10:45.686695",
+      "iteration": 3,
+      "variation": 2,
+      "prompt": "Extract structured information from the following resume text.\nReturn a JSON object with the following fields:\n- name: Full name of the person\n- email: Email address\n- phone: Phone number\n- skills: List of technical and professional skills\n- experience: Work experience entries (job title, company, dates)\n- education: Educational background (degree, institution, graduation date)\n- certifications: Professional certifications\n\nResume text:\n{resume_text}\n\nReturn only valid JSON, no additional text.\n\nExample output format:\n{\n    \"name\": \"Jane Smith\",\n    \"email\": \"jane@example.com\",\n    \"phone\": \"+1-555-1234\",\n    \"skills\": [\"Python\", \"Machine Learning\"],\n    \"experience\": [{\"title\": \"Data Scientist\", \"company\": \"TechCorp\", \"duration\": \"2020-2023\"}],\n    \"education\": [{\"degree\": \"M.S. Computer Science\", \"institution\": \"University\", \"graduation\": \"2020\"}],\n    \"certifications\": [\"AWS Certified\"]\n}\n\n\nAdditional instructions:\n- Be thorough and extract all available information\n- For lists, include all entries you can find\n- If information is not found, use empty string or empty list\n- Ensure JSON is valid and properly formatted\n- Extract exact text from resume when possible\n",
+      "prompt_length": 1185
+    }
+  ],
+  "scores": [
+    {
+      "timestamp": "2026-05-30T14:08:48.365614",
+      "iteration": 0,
+      "metric": "variation_0",
+      "value": 0.8241758241758241
+    },
+    {
+      "timestamp": "2026-05-30T14:09:01.497692",
+      "iteration": 0,
+      "metric": "variation_1",
+      "value": 0.8571428571428571
+    },
+    {
+      "timestamp": "2026-05-30T14:09:12.962176",
+      "iteration": 0,
+      "metric": "variation_2",
+      "value": 0.8241758241758241
+    },
+    {
+      "timestamp": "2026-05-30T14:09:25.613323",
+      "iteration": 1,
+      "metric": "variation_0",
+      "value": 0.0
+    },
+    {
+      "timestamp": "2026-05-30T14:09:38.203831",
+      "iteration": 1,
+      "metric": "variation_1",
+      "value": 0.0
+    },
+    {
+      "timestamp": "2026-05-30T14:09:48.467345",
+      "iteration": 1,
+      "metric": "variation_2",
+      "value": 0.8571428571428571
+    },
+    {
+      "timestamp": "2026-05-30T14:09:59.239949",
+      "iteration": 2,
+      "metric": "variation_0",
+      "value": 0.8241758241758241
+    },
+    {
+      "timestamp": "2026-05-30T14:10:09.846560",
+      "iteration": 2,
+      "metric": "variation_1",
+      "value": 0.8571428571428571
+    },
+    {
+      "timestamp": "2026-05-30T14:10:22.444923",
+      "iteration": 2,
+      "metric": "variation_2",
+      "value": 0.0
+    },
+    {
+      "timestamp": "2026-05-30T14:10:33.087999",
+      "iteration": 3,
+      "metric": "variation_0",
+      "value": 0.8571428571428571
+    },
+    {
+      "timestamp": "2026-05-30T14:10:45.686671",
+      "iteration": 3,
+      "metric": "variation_1",
+      "value": 0.0
+    },
+    {
+      "timestamp": "2026-05-30T14:10:57.147866",
+      "iteration": 3,
+      "metric": "variation_2",
+      "value": 0.8571428571428571
+    }
+  ],
+  "api_calls": [],
+  "latencies": [],
+  "iterations": [
+    {
+      "timestamp": "2026-05-30T14:09:12.963985",
+      "iteration": 0,
+      "best_score": 0.8571428571428571,
+      "best_variation": 1,
+      "improved": true,
+      "variation_scores": {
+        "0": 0.8241758241758241,
+        "1": 0.8571428571428571,
+        "2": 0.8241758241758241
+      },
+      "no_improvement_count": 0
+    },
+    {
+      "timestamp": "2026-05-30T14:09:48.468199",
+      "iteration": 1,
+      "best_score": 0.8571428571428571,
+      "best_variation": 2,
+      "improved": false,
+      "variation_scores": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.8571428571428571
+      },
+      "no_improvement_count": 1
+    },
+    {
+      "timestamp": "2026-05-30T14:10:22.445638",
+      "iteration": 2,
+      "best_score": 0.8571428571428571,
+      "best_variation": 1,
+      "improved": false,
+      "variation_scores": {
+        "0": 0.8241758241758241,
+        "1": 0.8571428571428571,
+        "2": 0.0
+      },
+      "no_improvement_count": 2
+    },
+    {
+      "timestamp": "2026-05-30T14:10:57.148753",
+      "iteration": 3,
+      "best_score": 0.8571428571428571,
+      "best_variation": 0,
+      "improved": false,
+      "variation_scores": {
+        "0": 0.8571428571428571,
+        "1": 0.0,
+        "2": 0.8571428571428571
+      },
+      "no_improvement_count": 3
+    }
+  ]
+}

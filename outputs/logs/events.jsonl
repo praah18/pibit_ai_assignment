@@ -1,0 +1,303 @@
+{"timestamp": "2026-05-29T23:12:02.467158", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-29T23:12:02.468356", "level": "INFO", "message": "Dataset stats: {'total_samples': 3, 'train_samples': 2, 'val_samples': 0, 'test_samples': 1, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications']}"}
+{"timestamp": "2026-05-29T23:12:02.468413", "level": "INFO", "message": "Clearing existing checkpoints..."}
+{"timestamp": "2026-05-29T23:12:02.468465", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-29T23:12:02.468497", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-29T23:12:02.468524", "level": "INFO", "message": "Validation set size: 0"}
+{"timestamp": "2026-05-29T23:12:02.468550", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-29T23:12:02.468599", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-29T23:12:02.468629", "level": "INFO", "message": "=== Iteration 1 ==="}
+{"timestamp": "2026-05-29T23:12:02.468667", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-29T23:12:02.468695", "level": "INFO", "message": "=== Iteration 2 ==="}
+{"timestamp": "2026-05-29T23:12:02.468731", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-29T23:12:02.468758", "level": "INFO", "message": "Early stopping triggered after 3 iterations"}
+{"timestamp": "2026-05-29T23:12:02.468783", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-29T23:12:02.469154", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-29T23:12:02.547181", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-29T23:12:02.547414", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-29T23:12:02.547464", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-29T23:12:02.547507", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-29T23:12:02.547546", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-29T23:12:02.548323", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-29T23:12:30.229729", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-29T23:12:30.231246", "level": "INFO", "message": "Dataset stats: {'total_samples': 5, 'train_samples': 3, 'val_samples': 1, 'test_samples': 1, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications']}"}
+{"timestamp": "2026-05-29T23:12:30.231308", "level": "INFO", "message": "Clearing existing checkpoints..."}
+{"timestamp": "2026-05-29T23:12:30.231493", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-29T23:12:30.231530", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-29T23:12:30.231559", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-29T23:12:30.231588", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-29T23:12:38.555292", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-29T23:12:38.556793", "level": "INFO", "message": "Dataset stats: {'total_samples': 5, 'train_samples': 3, 'val_samples': 1, 'test_samples': 1, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications']}"}
+{"timestamp": "2026-05-29T23:12:38.556857", "level": "INFO", "message": "Clearing existing checkpoints..."}
+{"timestamp": "2026-05-29T23:12:38.556918", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-29T23:12:38.556951", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-29T23:12:38.557000", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-29T23:12:38.557040", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-29T23:12:38.896068", "level": "INFO", "message": "Improved! New best F1: 0.0408"}
+{"timestamp": "2026-05-29T23:12:38.897089", "level": "INFO", "message": "=== Iteration 1 ==="}
+{"timestamp": "2026-05-29T23:12:39.219819", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0408"}
+{"timestamp": "2026-05-29T23:12:39.220733", "level": "INFO", "message": "=== Iteration 2 ==="}
+{"timestamp": "2026-05-29T23:12:39.626822", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0408"}
+{"timestamp": "2026-05-29T23:12:39.627257", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-29T23:12:39.628703", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-29T23:12:39.777845", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-29T23:12:39.778213", "level": "INFO", "message": "  Precision: 0.2857"}
+{"timestamp": "2026-05-29T23:12:39.778616", "level": "INFO", "message": "  Recall: 0.2857"}
+{"timestamp": "2026-05-29T23:12:39.778759", "level": "INFO", "message": "  F1: 0.2857"}
+{"timestamp": "2026-05-29T23:12:39.778872", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-29T23:12:39.781712", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-29T23:14:28.371951", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-29T23:14:28.373021", "level": "INFO", "message": "Dataset stats: {'total_samples': 5, 'train_samples': 3, 'val_samples': 1, 'test_samples': 1, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications']}"}
+{"timestamp": "2026-05-29T23:14:28.373080", "level": "INFO", "message": "Clearing existing checkpoints..."}
+{"timestamp": "2026-05-29T23:14:28.373386", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-29T23:14:28.373422", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-29T23:14:28.373450", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-29T23:14:28.373478", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-29T23:14:28.686496", "level": "INFO", "message": "Improved! New best F1: 0.3265"}
+{"timestamp": "2026-05-29T23:14:28.687207", "level": "INFO", "message": "=== Iteration 1 ==="}
+{"timestamp": "2026-05-29T23:14:29.053524", "level": "INFO", "message": "No improvement. Best F1 remains: 0.3265"}
+{"timestamp": "2026-05-29T23:14:29.053879", "level": "INFO", "message": "=== Iteration 2 ==="}
+{"timestamp": "2026-05-29T23:14:29.460564", "level": "INFO", "message": "No improvement. Best F1 remains: 0.3265"}
+{"timestamp": "2026-05-29T23:14:29.460980", "level": "INFO", "message": "=== Iteration 3 ==="}
+{"timestamp": "2026-05-29T23:14:30.015496", "level": "INFO", "message": "No improvement. Best F1 remains: 0.3265"}
+{"timestamp": "2026-05-29T23:14:30.016267", "level": "INFO", "message": "Early stopping triggered after 4 iterations"}
+{"timestamp": "2026-05-29T23:14:30.016669", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-29T23:14:30.018978", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-29T23:14:30.166459", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-29T23:14:30.167276", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-29T23:14:30.167508", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-29T23:14:30.167659", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-29T23:14:30.167774", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-29T23:14:30.171770", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-29T23:50:41.424751", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-29T23:50:41.425949", "level": "INFO", "message": "Dataset stats: {'total_samples': 0, 'train_samples': 0, 'val_samples': 0, 'test_samples': 0, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications']}"}
+{"timestamp": "2026-05-29T23:50:41.426282", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-29T23:50:41.426323", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-29T23:50:41.426363", "level": "INFO", "message": "Starting optimization from iteration 4"}
+{"timestamp": "2026-05-29T23:50:41.426397", "level": "INFO", "message": "Validation set size: 0"}
+{"timestamp": "2026-05-29T23:50:41.426429", "level": "INFO", "message": "=== Iteration 4 ==="}
+{"timestamp": "2026-05-29T23:50:41.426496", "level": "INFO", "message": "No improvement. Best F1 remains: 0.3265"}
+{"timestamp": "2026-05-29T23:50:41.426533", "level": "INFO", "message": "Early stopping triggered after 5 iterations"}
+{"timestamp": "2026-05-29T23:50:41.426569", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-29T23:50:41.427459", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-29T23:50:41.427504", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-29T23:50:41.427541", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-29T23:50:41.427572", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-29T23:50:41.427603", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-29T23:50:41.427639", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-29T23:50:41.428600", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T00:13:15.438465", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-30T00:13:15.438772", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:13:15.438823", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-30T00:15:23.641222", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-30T00:15:23.641589", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:15:23.641655", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-30T00:20:02.800353", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-30T00:20:02.800859", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:20:02.800938", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-30T00:20:02.824781", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf: PyMuPDF extracted no text; pdfplumber extracted no text"}
+{"timestamp": "2026-05-30T00:20:02.829571", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf: PyMuPDF extracted no text; pdfplumber extracted no text"}
+{"timestamp": "2026-05-30T00:20:02.830165", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:20:02.830533", "level": "INFO", "message": "=== Iteration 1 ==="}
+{"timestamp": "2026-05-30T00:20:02.839040", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf: PyMuPDF extracted no text; pdfplumber extracted no text"}
+{"timestamp": "2026-05-30T00:20:02.844226", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf: PyMuPDF extracted no text; pdfplumber extracted no text"}
+{"timestamp": "2026-05-30T00:20:02.844512", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:20:02.856096", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Finance.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Finance.pdf: PyMuPDF extracted no text; pdfplumber extracted no text"}
+{"timestamp": "2026-05-30T00:29:02.971236", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T00:29:02.974076", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T00:29:02.974547", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T00:29:02.974598", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T00:29:02.974641", "level": "INFO", "message": "Starting optimization from iteration 5"}
+{"timestamp": "2026-05-30T00:29:02.974677", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:29:02.974712", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T00:29:02.976145", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T00:29:02.990618", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:29:02.993416", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Med.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Med.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:29:02.993486", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T00:29:02.993536", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T00:29:02.993575", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T00:29:02.993612", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T00:29:02.993648", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T00:29:02.994954", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T00:32:15.900622", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T00:32:15.903422", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T00:32:15.903560", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T00:32:15.903600", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-30T00:32:15.903631", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:32:15.903660", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-30T00:32:15.922632", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.923434", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.924323", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.924817", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:32:15.924940", "level": "INFO", "message": "=== Iteration 1 ==="}
+{"timestamp": "2026-05-30T00:32:15.925719", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.926390", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.926984", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.927039", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:32:15.927129", "level": "INFO", "message": "=== Iteration 2 ==="}
+{"timestamp": "2026-05-30T00:32:15.927831", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.928577", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.929185", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.929242", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:32:15.929282", "level": "INFO", "message": "Early stopping triggered after 3 iterations"}
+{"timestamp": "2026-05-30T00:32:15.929317", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T00:32:15.929755", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T00:32:15.932441", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Med.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Med.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.935616", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Finance.pdf", "error": "Failed to extract text from PDF /Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Finance.pdf: PyMuPDF extracted no text; OCR error: OCR requires pytesseract and pdf2image. Install them in requirements.txt."}
+{"timestamp": "2026-05-30T00:32:15.935697", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T00:32:15.935740", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T00:32:15.935838", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T00:32:15.935875", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T00:32:15.935907", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T00:32:15.937540", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T00:48:23.431838", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T00:48:23.435561", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T00:48:23.436041", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T00:48:23.436122", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T00:48:23.436243", "level": "INFO", "message": "Starting optimization from iteration 3"}
+{"timestamp": "2026-05-30T00:48:23.436298", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:48:23.436343", "level": "INFO", "message": "=== Iteration 3 ==="}
+{"timestamp": "2026-05-30T00:48:23.465906", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic01.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:48:23.477639", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic01.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:48:23.489183", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic01.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:48:23.489332", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:48:23.489396", "level": "INFO", "message": "Early stopping triggered after 4 iterations"}
+{"timestamp": "2026-05-30T00:48:23.489439", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T00:48:23.490576", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T00:48:32.638641", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Marketing.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:48:35.179998", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Med.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:48:35.180210", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T00:48:35.180287", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T00:48:35.180337", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T00:48:35.180388", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T00:48:35.180437", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T00:48:35.181998", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T00:49:40.001649", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T00:49:40.005378", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T00:49:40.005848", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T00:49:40.005922", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T00:49:40.005973", "level": "INFO", "message": "Starting optimization from iteration 4"}
+{"timestamp": "2026-05-30T00:49:40.006024", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T00:49:40.006059", "level": "INFO", "message": "=== Iteration 4 ==="}
+{"timestamp": "2026-05-30T00:49:40.032358", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic02.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:49:40.044386", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic02.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:49:40.055775", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic02.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:49:40.055919", "level": "INFO", "message": "No improvement. Best F1 remains: 0.0000"}
+{"timestamp": "2026-05-30T00:49:40.055998", "level": "INFO", "message": "Early stopping triggered after 5 iterations"}
+{"timestamp": "2026-05-30T00:49:40.056053", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T00:49:40.056744", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T00:49:42.566225", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:49:51.614123", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Marketing.pdf", "error": "OpenAI API key is required for OpenAI model calls."}
+{"timestamp": "2026-05-30T00:49:51.614695", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T00:49:51.614777", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T00:49:51.614857", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T00:49:51.614922", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T00:49:51.614978", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T00:49:51.616211", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T01:23:42.771173", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T01:23:42.774935", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T01:23:42.775295", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T01:23:42.775349", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T01:23:42.775394", "level": "INFO", "message": "Starting optimization from iteration 5"}
+{"timestamp": "2026-05-30T01:23:42.775432", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T01:23:42.775469", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T01:23:42.777193", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T01:23:42.948859", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic01.pdf", "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta2/models/gpt-3.5-turbo:generateText?key=<REDACTED_API_KEY>"}
+{"timestamp": "2026-05-30T01:23:48.628884", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Marketing.pdf", "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta2/models/gpt-3.5-turbo:generateText?key=<REDACTED_API_KEY>"}
+{"timestamp": "2026-05-30T01:23:48.636435", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T01:23:48.637431", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T01:23:48.637884", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T01:23:48.638185", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T01:23:48.638255", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T01:23:48.648560", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T01:28:52.959305", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T01:28:52.962193", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T01:28:52.962516", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T01:28:52.962557", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T01:28:52.962594", "level": "INFO", "message": "Starting optimization from iteration 5"}
+{"timestamp": "2026-05-30T01:28:52.962625", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T01:28:52.962653", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T01:28:52.963642", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T01:28:55.385970", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta2/models/gemini-1.5-flash:generateText?key=<REDACTED_API_KEY>"}
+{"timestamp": "2026-05-30T01:28:57.851216", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta2/models/gemini-1.5-flash:generateText?key=<REDACTED_API_KEY>"}
+{"timestamp": "2026-05-30T01:28:57.853953", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T01:28:57.854172", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T01:28:57.854300", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T01:28:57.854405", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T01:28:57.854498", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T01:28:57.856468", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T13:59:58.689140", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T13:59:58.692052", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T13:59:58.692474", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T13:59:58.692520", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T13:59:58.692557", "level": "INFO", "message": "Starting optimization from iteration 5"}
+{"timestamp": "2026-05-30T13:59:58.692586", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T13:59:58.692615", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T13:59:58.694033", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T13:59:58.912547", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic02.pdf", "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=<REDACTED_API_KEY>"}
+{"timestamp": "2026-05-30T14:00:01.646115", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=<REDACTED_API_KEY>"}
+{"timestamp": "2026-05-30T14:00:01.647817", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T14:00:01.647955", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T14:00:01.648048", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T14:00:01.648125", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T14:00:01.648192", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T14:00:01.650623", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T14:01:53.393279", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T14:01:53.396016", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T14:01:53.396447", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T14:01:53.396487", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T14:01:53.396525", "level": "INFO", "message": "Starting optimization from iteration 5"}
+{"timestamp": "2026-05-30T14:01:53.396559", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T14:01:53.396596", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T14:01:53.397610", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T14:02:03.548151", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic02.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:02:21.552623", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Med.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:02:21.558531", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T14:02:21.558907", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T14:02:21.559051", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T14:02:21.559308", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T14:02:21.559525", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T14:02:21.563641", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T14:03:29.525069", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T14:03:29.528131", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T14:03:29.528508", "level": "INFO", "message": "Resuming from checkpoint..."}
+{"timestamp": "2026-05-30T14:03:29.528560", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T14:03:29.528602", "level": "INFO", "message": "Starting optimization from iteration 5"}
+{"timestamp": "2026-05-30T14:03:29.528634", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T14:03:29.528670", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T14:03:29.529578", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T14:03:29.529633", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "PyMuPDF is required for PDF extraction. Install PyMuPDF in requirements.txt."}
+{"timestamp": "2026-05-30T14:03:29.529693", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-IT.pdf", "error": "PyMuPDF is required for PDF extraction. Install PyMuPDF in requirements.txt."}
+{"timestamp": "2026-05-30T14:03:29.529833", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T14:03:29.529880", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T14:03:29.529918", "level": "INFO", "message": "  Recall: 0.0000"}
+{"timestamp": "2026-05-30T14:03:29.529956", "level": "INFO", "message": "  F1: 0.0000"}
+{"timestamp": "2026-05-30T14:03:29.529987", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T14:03:29.530954", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
+{"timestamp": "2026-05-30T14:08:37.729291", "level": "INFO", "message": "Initializing components..."}
+{"timestamp": "2026-05-30T14:08:37.732465", "level": "INFO", "message": "Dataset stats: {'total_pdfs': 7, 'total_annotations': 7, 'total_matches': 7, 'total_samples': 7, 'train_samples': 4, 'val_samples': 1, 'test_samples': 2, 'schema_fields': ['name', 'email', 'phone', 'skills', 'experience', 'education', 'certifications'], 'unmatched_pdfs': [], 'unmatched_annotations': []}"}
+{"timestamp": "2026-05-30T14:08:37.732550", "level": "INFO", "message": "Starting prompt optimization..."}
+{"timestamp": "2026-05-30T14:08:37.732598", "level": "INFO", "message": "Starting optimization from iteration 0"}
+{"timestamp": "2026-05-30T14:08:37.732636", "level": "INFO", "message": "Validation set size: 1"}
+{"timestamp": "2026-05-30T14:08:37.732669", "level": "INFO", "message": "=== Iteration 0 ==="}
+{"timestamp": "2026-05-30T14:09:12.962259", "level": "INFO", "message": "Improved! New best F1: 0.8571"}
+{"timestamp": "2026-05-30T14:09:12.964012", "level": "INFO", "message": "=== Iteration 1 ==="}
+{"timestamp": "2026-05-30T14:09:25.609026", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:09:38.199754", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:09:48.467470", "level": "INFO", "message": "No improvement. Best F1 remains: 0.8571"}
+{"timestamp": "2026-05-30T14:09:48.468222", "level": "INFO", "message": "=== Iteration 2 ==="}
+{"timestamp": "2026-05-30T14:10:22.436723", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:10:22.445049", "level": "INFO", "message": "No improvement. Best F1 remains: 0.8571"}
+{"timestamp": "2026-05-30T14:10:22.445655", "level": "INFO", "message": "=== Iteration 3 ==="}
+{"timestamp": "2026-05-30T14:10:45.681769", "level": "WARNING", "message": "Skipping validation sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Legal.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:10:57.147957", "level": "INFO", "message": "No improvement. Best F1 remains: 0.8571"}
+{"timestamp": "2026-05-30T14:10:57.148821", "level": "INFO", "message": "Early stopping triggered after 4 iterations"}
+{"timestamp": "2026-05-30T14:10:57.149267", "level": "INFO", "message": "Saving final checkpoint..."}
+{"timestamp": "2026-05-30T14:10:57.151911", "level": "INFO", "message": "Evaluating on test set..."}
+{"timestamp": "2026-05-30T14:11:07.693443", "level": "WARNING", "message": "Skipping test sample due to extraction error", "pdf_path": "/Users/prachirai/Desktop/extract-bench-main/dataset/hiring/resume/pdf+gold/Resume-Academic01.pdf", "error": "Expected JSON object from LLM response."}
+{"timestamp": "2026-05-30T14:11:19.987822", "level": "INFO", "message": "Test Set Performance:"}
+{"timestamp": "2026-05-30T14:11:19.988435", "level": "INFO", "message": "  Precision: 0.0000"}
+{"timestamp": "2026-05-30T14:11:19.988643", "level": "INFO", "message": "  Recall: 0.7143"}
+{"timestamp": "2026-05-30T14:11:19.988797", "level": "INFO", "message": "  F1: 0.7143"}
+{"timestamp": "2026-05-30T14:11:19.988962", "level": "INFO", "message": "Generating reports..."}
+{"timestamp": "2026-05-30T14:11:19.992822", "level": "INFO", "message": "Logs saved to outputs/logs/optimization_logs.json"}
